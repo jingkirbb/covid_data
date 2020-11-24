@@ -1,3 +1,5 @@
+//  cargo run --release -- ~/p/covid_county.json ./out
+
 use anyhow::{Context, Result};
 use chrono::{TimeZone, Utc};
 use rayon::prelude::*;
